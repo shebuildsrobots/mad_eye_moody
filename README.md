@@ -1,4 +1,4 @@
-# [UNDER CONSTRUCTION] Build a Mad Eye Moody Eye 
+# Build a Mad Eye Moody Eye 
 This is a fork of the excellent thelastoutpostworkshop/ESP32LCDRound240x240Eyes repo. It includes some additional wiring instructions for Adafruit TFT boards plus 3D print files for an eye patch mount.
 
 Materials:
@@ -27,4 +27,7 @@ Then, you must find and uncomment the lines corresponding to your ESP board. For
 #define TOUCH_CS 21     // Chip select pin (T_CS) of touch screen
 ```
 
-Save and close this file.
+Save and close this file. Upload the code in this repo to your ESP32 and wire according to the pin mapping you just uncommented above. 
+
+## Print the enclosure
+I printed the base and top plate in PLA, glued a EVA foam strap to the sides, and then used M2 screws to sandwich the screen between the top plate and the base plate. Run the wires along the open side of the enclosure, along the side of your head, and behind the collar of your shirt. Use a portable battery to power the ESP32.  
